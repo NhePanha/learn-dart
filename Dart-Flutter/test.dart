@@ -8,7 +8,7 @@ class Student {
   Student(this.name, this.age, this.grade);
 
   // Method to display student details
-  void displayDetails() {
+    void displayDetails() async {
     print('Student Details:');
     print('Name: $name');
     print('Age: $age');
