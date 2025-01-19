@@ -37,19 +37,14 @@ class Employee {
 void main() {
   // Create an employee object
   Employee emp1 = Employee('John Doe', 30, 'Software Engineer', 75000);
-
   // Display employee details
   emp1.displayDetails();
-
   // Give a raise
   emp1.giveRaise(10);
-
   // Display updated details
   emp1.displayDetails();
-
   // Change position
   emp1.changePosition('Senior Software Engineer');
-
   // Display updated details again
   emp1.displayDetails();
 }
