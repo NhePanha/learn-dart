@@ -53,8 +53,9 @@ void main()
   print(list1);
   for(var temp in list1)
   {
+    print("\n");
     temp.forEach((key,value){
-      print('Key: $key, Value: $value');
+      print('$key, : $value');
     });
   }
 }
